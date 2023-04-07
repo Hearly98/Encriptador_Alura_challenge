@@ -1,0 +1,156 @@
+
+*{
+    background-color: #F3F5FC;  
+}
+.logo-alura{
+    width: 80px;
+    margin-top: 10px;
+}
+.container{
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+    margin-top: 30px;
+    text-align: center;
+}
+.container-entrada{
+    margin: 30px;
+}
+.txt-entrada{
+    background-color: #e9ecf8;
+    color: #0A3871;
+    font-size: 1.5rem;
+    height: 200px;
+    width: 300px;
+    border:none;
+    resize: none;
+}
+.txt-entrada::placeholder{
+    color: #0A3871;
+}
+.aviso{
+    color: #495057;
+    font-size: 0.80rem;
+    text-align: start;
+}
+.btn{
+    padding: 18px;
+    width: 240px;
+    height: 67px;
+    border-radius: 24px;
+    font-size: 1.5rem;
+    margin: 10px;
+    cursor: pointer;
+}
+#btn_encriptar{
+    color: #ffff;
+    background-color: #0A3871;
+
+}
+#btn_desencriptar{
+    color: #0A3871;
+    background-color: #D8DFE8;
+}
+.txt-salida{ 
+    height: 200px;
+    width: 300px;
+    border-radius: 24px;
+    background: #ffff;
+    border: none;
+    text-align: left;
+    font-size: 1.5rem;
+    resize: none;
+    padding: 20px;
+    color: #495057;
+}
+#copia {
+    border: 1px solid #0A3871;
+    border-radius: 2rem;
+    color: #0A3871;
+    cursor: pointer;   
+}
+@media  (min-width:680px) and (max-width:990px)  {
+    .logo-alura{
+        width: 150px;
+    }
+    .txt-entrada{
+        font-size: 2rem;
+        height: 400px;
+        width: 650px;
+        vertical-align: baseline;
+        margin-top: 30px;
+    }
+    .aviso{
+        font-size: 1.15rem;
+    }
+    .btn{
+        margin:0 50px 50px 50px;
+    }
+    .txt-salida{ 
+       margin-bottom: 50px;
+    }
+
+}
+ .txt-salida{ 
+    height: 400px;
+    width: 620px;
+    }
+    @media (min-width:1000px) and (max-width:1490px){
+        .container{
+            display: flex;
+        }
+        .txt-entrada{
+            font-size: 2rem;
+            height: 400px;
+            width: 520px;
+        }
+       
+        .aviso{
+            font-size: 1.15rem;
+        }
+        .btn{
+            gap: 8px;
+            margin: 50px;
+        }
+        .txt-salida{ 
+            height: 670px;
+            width: 400px;
+            background-image: url('./imagenes/Muñeco.png');
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        #copia {
+            position: absolute;
+            top: 85%;
+            left: 65%;
+        }
+    }
+@media (min-width:1500px) and (max-width:3000px){
+    .container{
+        display: flex;
+    }
+    .txt-entrada{
+        font-size: 2rem;
+        height: 400px;
+        width: 520px;
+    }
+   
+    .aviso{
+        font-size: 1.15rem;
+    }
+    .btn{
+        gap: 8px;
+        margin: 50px;
+    }
+    .txt-salida{ 
+        height: 670px;
+        width: 400px;
+        background-image: url(/imagenes/Muñeco.png);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    #copia {
+        position: absolute;
+        top:65%;
+        left: 60%;
+    }
+}

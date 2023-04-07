@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content= "IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador Alura</title>
+    <link rel="stylesheet" href="./estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.css" integrity="sha512-Z0kTB03S7BU+JFU0nw9mjSBcRnZm2Bvm0tzOX9/OuOuz01XQfOpa0w/N9u6Jf2f1OAdegdIPWZ9nIZZ+keEvBw==" crossorigin="anonymous" referrerpolicy="no-referrer" /></head>
+<body>
+    <img class="logo-alura" src="./imagenes/Frame 6.png" alt="">
+      <div class="container">
+       
+            <div class="container-entrada">
+
+            <!--Seccion entrada-->
+
+            <textarea class="txt-entrada" id="textarea-entrada" cols="30" rows="10" placeholder="Ingrese texto aquí"></textarea>
+
+            <h6 class="aviso "> <i class="fa-sharp fa-solid fa-circle-exclamation"></i> Solo letras minúsculas y sin acentos</h6>
+            <!--Botones-->
+        
+            <button class="btn" id="btn_encriptar"> Encriptar</button>
+            <button class="btn" id="btn_desencriptar">Desencriptar</button>
+
+        </div>
+
+        <!--Seccion salida-->
+        <div class="container_salida">
+
+            <textarea type="text" class="txt-salida"></textarea>
+
+            <div class="container-copia"> </div>
+     </div>
+  <script  src="./js/challenge.js"></script>
+</body>
+</html> 
