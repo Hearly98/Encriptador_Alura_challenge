@@ -1,5 +1,7 @@
 # Encriptador_Alura_challenge
 
+![image](https://user-images.githubusercontent.com/116468255/230700369-23ab0f56-612b-49e3-bf11-366300833cee.png)
+
 Encriptador Alura es un challenge creado con la finalidad de encriptar y desencriptar palabras.
 
 ## 🔑 Llaves de encriptacion
